@@ -4,6 +4,9 @@
  * Pare o programa somente inserindo o valor 0 no campo nome
  */
 
+import java.util.Scanner;
+
+
  public class ex_1NomeEIdade {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -14,12 +17,16 @@
         while(true) {
             System.out.println("Nome: ");
             nome = scan.next();
-            if (nome.equals("0")) break;
+            if (nome.equals("0")) 
+                break;
 
             System.out.println("Idade: ");
             idade = scan.nextInt();
+            System.out.println("Nome: " + nome + ", Idade: " + idade);
         }
 
-        System.out.println("Continuar aqui...");
+        scan.close();
+        System.out.println("Fim do programa.");
     }
  }
+
