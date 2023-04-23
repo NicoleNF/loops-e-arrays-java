@@ -4,10 +4,9 @@
  * Pare o programa somente inserindo o valor 0 no campo nome
  */
 
-import java.util.Scanner;
+ import java.util.Scanner;
 
-
- public class ex_1NomeEIdade {
+ public class exercicio1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -22,11 +21,10 @@ import java.util.Scanner;
 
             System.out.println("Idade: ");
             idade = scan.nextInt();
-            System.out.println("Nome: " + nome + ", Idade: " + idade);
+            System.out.println("Nome: " + nome + ", idade: " + idade);
         }
-
+        
         scan.close();
-        System.out.println("Fim do programa.");
+        System.out.println("Fim do programa");
     }
  }
-
