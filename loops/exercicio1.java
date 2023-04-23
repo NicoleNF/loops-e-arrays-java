@@ -25,6 +25,6 @@
         }
         
         scan.close();
-        System.out.println("Fim do programa");
+        System.out.println("Fim do programa.");
     }
  }
