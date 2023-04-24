@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex6_VersaoMaisSofisticada",
+            "request": "launch",
+            "mainClass": "ex6_VersaoMaisSofisticada",
+            "projectName": "loops_6abc33ed"
+        },
+        {
+            "type": "java",
+            "name": "exercicio6",
+            "request": "launch",
+            "mainClass": "exercicio6",
+            "projectName": "loops_6abc33ed"
+        },
+        {
+            "type": "java",
             "name": "ex5_VersaoMaisSofisticada",
             "request": "launch",
             "mainClass": "ex5_VersaoMaisSofisticada",
