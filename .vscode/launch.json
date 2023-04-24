@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex2_VersaoMaisSofisticada",
+            "request": "launch",
+            "mainClass": "ex2_VersaoMaisSofisticada",
+            "projectName": "loops_6abc33ed"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
