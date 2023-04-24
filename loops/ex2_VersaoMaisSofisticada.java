@@ -8,8 +8,8 @@ import java.util.Scanner;
 
 public class ex2_VersaoMaisSofisticada {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        double nota = -1; /*Inicializando com uma variável inválida para que o laço seja executado pelo menos 1 vez */
+        try (Scanner sc = new Scanner(System.in)) { /*Bloco try utilizado para fechar o objeto Scanner após o uso */
+            double nota = -1; /*Inicializando com uma variável inválida para que o laço seja executado pelo menos 1 vez */
 
         while (nota < 0 | nota > 10) {
             try {
@@ -25,4 +25,6 @@ public class ex2_VersaoMaisSofisticada {
 
         System.out.println("A nota digitada foi: " + nota);
     }
+}
+
 }
